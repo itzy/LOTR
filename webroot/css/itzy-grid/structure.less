@@ -1,0 +1,124 @@
+
+#wrapper {
+  max-width: 960px;
+  margin:0 auto;
+  min-height: 20em;
+  box-shadow: 0px 0px 10px #888888;
+  margin-bottom: @magicNumber;
+  margin-top: @magicNumber;
+  background-color: white;
+  border:0px solid;
+  border-radius:10px;
+  background-image: url('../../img/grid_12_60_20.png');
+}
+
+#navbar{
+  .column(@columns);
+
+}
+
+#header,
+#flash,
+#footer {
+  .column(@columns);
+  text-align: center;
+}
+
+#flash {
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 22px;
+  margin-left: -20px;
+}
+
+#main {
+  .column(@columns);
+  margin-bottom: @magicNumber;
+}
+
+#sidebar {
+  .column(@columns / 3);
+  margin-bottom: @magicNumber;
+  position: relative;
+
+}
+
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3 {
+  .column(@columns / 3);
+  text-align: center;
+  margin-bottom: @magicNumber;
+
+}
+
+#footer-col-1,
+#footer-col-2,
+#footer-col-3,
+#footer-col-4 {
+  .column(@columns / 4);
+  margin-bottom: @magicNumber;
+  text-align: center;
+}
+
+#wrap-featured,
+#wrapper,
+#wrap-triptych,
+#wrap-footer-col {
+  .clearfix();
+}
+
+.sitelogo {
+  position: relative;
+  top: 10px;
+}
+.sitetitle {
+  position: relative;
+  font-size: 33px;
+  top: -50px;
+}
+
+
+.siteslogan {
+  position: relative;
+  font-style: italic;
+  color: #666;
+  font-size: 22px;
+  top: -40px
+}
+
+
+/*--- LINKS ---*/
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active,
+a:focus {
+  position: relative;
+  top: 1px;
+}
+
+#me {
+  float: right;
+  margin: 0 0 0 20px;
+  display: block;
+  width: 148px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}

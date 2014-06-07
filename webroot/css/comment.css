@@ -1,0 +1,130 @@
+/**
+ * CSS For comment system.
+ *
+ */
+
+ul.post-list {
+    margin: 0;
+    padding: 0;
+}
+
+li.post {
+    padding: 5px 0;
+    list-style: none;
+    height: 60px;
+}
+
+.post-body {
+    float: left;
+    font-size: 12px;
+    width: 400px;
+}
+
+.avatar {
+
+    padding-right: 5px;
+    float: left;
+}
+
+.post-header {
+
+}
+
+.post-name {
+    color: #9ACD32;
+    font-weight: bold;
+}
+
+.post-id {
+}
+
+.post-menu {
+
+}
+
+.myButton {
+    background-color:#99cd32;
+    border:1px solid #cccccc;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:11px;
+    padding:1px 5px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:#79a81b;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.post-content {
+    min-height: 24px;
+}
+
+.post-footer {
+    color: #999;
+    font-style: italic;
+}
+#kontaktform fieldset { width: 400px; padding: 20px 0px 20px 50px; border: 1px solid #99cc00; }
+#kontaktform legend { color: #99cd32; letter-spacing: 3px; }
+#kontaktform textarea { border: 1px solid #99cc00; padding: 5px; font-size: 11px; }
+.input_text { border: 1px solid #99cc00; padding: 5px; font-size: 11px; letter-spacing: 2px; }
+
+.comment-form {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+.edit-form {
+    position: absolute;
+    margin: 0 auto;
+    top: 40%;
+}
+
+/**
+ * Style for comment system forms
+ */
+label {
+    font-size: smaller;
+}
+
+input[type=text],
+input[type=password] {
+    font-size: 12px;
+    width: 20%;
+    height: 12px;
+}
+
+input[type=submit],
+input[type=reset] {
+    font-size: 10px;
+}
+
+textarea {
+    font-size: 12px;
+    width: 80%;
+    height: 12px;
+}
+
+.buttons {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+fieldset {
+    border: 1px solid #99cd32;
+    font-size: 14px;
+
+}
+
+label {
+    font-size: 10px;
+}
+
+.text{
+    color: #79a81b;
+}
