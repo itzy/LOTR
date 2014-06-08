@@ -23,7 +23,12 @@ First, get your own version of https://github.com/itzy/LOTR
 
 You need to edit config_mysql.php "app/config/" so that it has your own database information.
 Edit header and footer in "app/view/me/" as you like.
-Edit index.md and about.md in "app/content/"
+Edit index.md and about.md in "app/content/".
+
+If you want to add controllers, just go to "src/DI/CDIFactoryDefault" where you can find the existing controllers and add your own.
+
+I have also implemented my own plugin for Anax-MVC [https://github.com/itzy/flash][1] which you are free to use as you like, check out its page for instructions on how to use it. 
+
 
 That's it!
 Enjoy © Julia Sivartsson
