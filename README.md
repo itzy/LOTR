@@ -27,7 +27,7 @@ Edit index.md and about.md in "app/content/".
 
 If you want to add controllers, just go to "src/DI/CDIFactoryDefault" where you can find the existing controllers and add your own.
 
-I have also implemented my own plugin for Anax-MVC [itzy/flash](https://github.com/itzy/flash)which you are free to use as you like, check out its page for instructions on how to use it. 
+I have also implemented my own plugin for Anax-MVC [itzy/flash](https://github.com/itzy/flash) which you are free to use as you like, check out its page for instructions on how to use it. 
 
 
 That's it!
